@@ -1,0 +1,216 @@
+.main{
+  padding: 2rem;
+    background-color: #0f172a;
+    color: #eaeaea;
+    font-family: 'Segoe UI', sans-serif;
+}
+.experience-wrapper .edu-heading{
+  background: linear-gradient(to right, rgb(232, 95, 232), #00ffff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.experience-wrapper {
+    background-color: #131b2e;
+    /* width: 1000px; */
+    
+    margin: auto;
+  }
+  .experience-wrapper h1{
+    padding-top: 50px;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    text-align: center;
+    color: white;
+  }
+ 
+  
+  .subtitle {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #aaa;
+  }
+  
+  .main-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: space-between;
+  }
+  
+  .left-panel,
+  .right-panel {
+    flex: 1 1 45%;
+  }
+  .left-panel h2{
+    padding-left: 12px;
+  }
+  
+  .section {
+    margin-bottom: 2rem;
+    margin-left: 8px;
+  }
+  
+  .exp-card,
+  .achievement-card,
+  .education-card {
+    background-color: #132336;
+    padding: 1rem;
+    border-radius: 0.75rem;
+    margin-top: 1rem;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    margin-left: 10px;
+  }
+  
+  .exp-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .date {
+    background-color: #1e2a47;
+    padding: 0.25rem 0.75rem;
+    border-radius: 1rem;
+    font-size: 0.8rem;
+  }
+  
+  .tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+  }
+  
+  .tags span {
+    background-color: #1c2a45;
+    padding: 0.3rem 0.7rem;
+    border-radius: 1rem;
+    font-size: 0.75rem;
+    color: #91cfff;
+  }
+  
+  .skills-container > div {
+    margin-top: 1rem;
+    background-color: #132336;
+    padding: 0.75rem;
+    border-radius: 0.5rem;
+  }
+  
+  .skills-container p {
+    color: #ccc;
+    font-size: 0.9rem;
+  }
+  .skills-box {
+    background-color: #132336;
+    padding: 1.5rem;
+    border: 1px solid #2c3451;
+    border-radius: 10px;
+    color: #fff;
+    margin-top: 1rem;
+    margin-right: 20px;
+  }
+  
+  .skills-box .category {
+    margin-bottom: 1.5rem;
+  }
+  
+  .skills-box strong {
+    display: block;
+    margin-bottom: 0.6rem;
+    font-size: 1rem;
+  }
+  
+  .tag-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+  
+  .tag-container span {
+    display: inline-block;
+    background-color: #2d2f3a;
+    padding: 0.4rem 0.9rem;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: #fff;
+  }
+  
+  /* Colors for different categories */
+  .tag-container.purple span {
+    background-color: #4c2885;
+  }
+  
+  .tag-container.green span {
+    background-color: #0f3f3e;
+  }
+  
+  .tag-container.gray span {
+    background-color: #2d2f3a;
+  }
+  
+  .tag-container.teal span {
+    background-color: #2b3f42;
+  }
+/* Education Section Styling */
+.education-section {
+    position: relative;
+    padding-left: 1.5rem;
+    border-left: 2px solid #2f3649;
+  }
+  
+  .education-item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 2rem;
+    position: relative;
+  }
+  
+  .timeline-dot {
+    width: 12px;
+    height: 12px;
+    background-color: #a34cd6;
+    border-radius: 50%;
+    position: absolute;
+    top: 0.4rem;
+    left: -30px;
+    z-index: 1;
+  }
+  
+  .education-content h3 {
+    margin: 0;
+    font-size: 1.1rem;
+    font-weight: 600;
+  }
+  
+  .education-content p {
+    margin: 0.3rem 0 0.8rem 0;
+    color: #bcbcbc;
+  }
+  
+  .education-content .tags {
+    display: flex;
+    gap: 0.8rem;
+    flex-wrap: wrap;
+  }
+  
+  .year-tag {
+    background-color: #2e3241;
+    color: #fff;
+    font-size: 0.8rem;
+    padding: 0.35rem 0.8rem;
+    border-radius: 20px;
+    font-weight: 600;
+  }
+  
+  .score-tag {
+    background-color: #1faa93;
+    color: #fff;
+    font-size: 0.8rem;
+    padding: 0.35rem 0.8rem;
+    border-radius: 20px;
+    font-weight: 600;
+  }
+      

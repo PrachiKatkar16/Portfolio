@@ -1,0 +1,52 @@
+.projects-section {
+    background-color: #0f172a;
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .projects-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    margin-top: -10px;
+  }
+  
+  .projects-section .gradient {
+    background: linear-gradient(to right, #7f5af0, #00d9ff);
+    -webkit-background-clip: text;
+    color: transparent;
+  }
+  
+  .description {
+    max-width: 700px;
+    margin: 0 auto 30px;
+    color: #aaa;
+  }
+  
+  .tabs {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    gap: 10px;
+  }
+  
+  .tab {
+    background-color: #151a2e;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .tab.active {
+    background-color: #1f2937;
+  }
+  
+  .projects-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+  }
+  

@@ -1,0 +1,126 @@
+.home-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 4rem 2rem; 
+    background-color: #0f172a;
+    color: white;
+  }
+  
+  .intro {
+    flex: 1;
+  }
+  .intro h1{
+    text-align: left;
+  }
+  .name {
+    background: linear-gradient(to right, #bd3aed, #38bdf8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .role {
+    color: #22c55e;
+    font-weight: bold;
+  }
+  
+  .buttons {
+    margin: 1rem 0;
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .purple-btn {
+    padding: 0.7rem 1.4rem;
+    background: #7c3aed;
+    border: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 8px;
+  }
+  
+  .border-btn {
+    padding: 0.7rem 1.4rem;
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 8px;
+  }
+  
+  .tech-stack p {
+    margin-top: 1.5rem;
+    font-weight: bold;
+    color: #cbd5e1;
+  }
+  
+  .tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.7rem;
+    margin-top: 0.5rem;
+  }
+  
+  .tags span {
+    background-color: #1e293b;
+    padding: 0.4rem 0.8rem;
+    border-radius: 5px;
+    font-size: 0.9rem;
+  }
+  
+  .code-box {
+    flex: 1;
+    margin-left: 2rem;
+    background-color: #1e293b;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 0 20px #9333ea;
+    font-family: 'Courier New', monospace;
+    white-space: pre-wrap;
+  }
+  @media screen and (max-width: 768px) {
+    .home-container {
+      flex-direction: column;
+      padding: 2rem 1rem;
+    }
+  
+    .intro {
+      margin-bottom: 2rem;
+    }
+  
+    .intro h1 {
+      font-size: 1.8rem;
+      text-align: left;
+    }
+  
+    .role {
+      font-size: 1rem;
+    }
+  
+    .buttons {
+      flex-direction: column;
+      gap: 0.8rem;
+    }
+  
+    .purple-btn,
+    .border-btn {
+      width: 100%;
+      padding: 0.8rem;
+      font-size: 1rem;
+    }
+  
+    .tags {
+      gap: 0.5rem;
+    }
+  
+    .code-box {
+      margin-left: 0;
+      font-size: 0.85rem;
+      box-shadow: 0 0 10px #9333ea;
+      overflow-x: auto;
+      max-width: 100%;
+      white-space: pre;
+    }
+  }
+  

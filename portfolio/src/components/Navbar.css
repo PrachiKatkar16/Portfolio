@@ -65,11 +65,7 @@
 }
 
 @media screen and (max-width: 768px) {
-  .navbar {
-    
-    /* align-items: flex-start; */
-    border: 1px solid white;
-  }
+  
 
   .menu-toggle {
     display: block;

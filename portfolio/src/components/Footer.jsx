@@ -1,5 +1,6 @@
 import React from "react";
 import "./Footer.css";
+import { Link } from "react-router-dom";
 import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 
 const Footer = () => {
@@ -32,11 +33,11 @@ const Footer = () => {
         <div className="footer-section links">
           <h3>Quick Links</h3>
           <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="/about">About</a></li>
-            <li><a href="/projects">Projects</a></li>
-            <li><a href="/experience">Experience</a></li>
-            <li><a href="/contact">Contact</a></li>
+           <li><Link to="/" onClick={() => setIsOpen(false)}>Home</Link></li>
+          <li><Link to="/about" onClick={() => setIsOpen(false)}>About</Link></li>
+          <li><Link to="/projects" onClick={() => setIsOpen(false)}>Projects</Link></li>
+          <li><Link to="/experience" onClick={() => setIsOpen(false)}>Experience</Link></li>
+          <li><Link to="/contact" onClick={() => setIsOpen(false)}>Contact</Link></li>
           </ul>
         </div>
 
